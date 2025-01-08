@@ -19,7 +19,7 @@ author = "Ben Cowling"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Ben Cowling learning to code"
 keywords = "blog,data,learning"
-info = ["From diagnosing patients to decoding data - I'm a medicine graduate diving into the world of data."]
+info = ["From diagnosing patients to decoding data - I'm a medicine graduate diving into the world of tech."]
 avatarURL = "img/avatar.jpeg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -34,7 +34,7 @@ rtl = false
 # "light" (light background, dark foreground) (default)
 colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = true
+hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
@@ -152,7 +152,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Blog"
 weight = 2
-url = "blogs/"
+url = "blog/"
 
 [[languages.en.menu.main]]
 name = "Projects"
