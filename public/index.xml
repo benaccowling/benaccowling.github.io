@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ben Cowling</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ben Cowling</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Dec 2024 17:24:33 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualising Dataframes</title>
+      <link>http://localhost:1313/blogs/creating-and-visualising-dataframes/</link>
+      <pubDate>Mon, 16 Dec 2024 17:24:33 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/creating-and-visualising-dataframes/</guid>
+      <description>&lt;p&gt;Up to the paint of making this website to start documenting my learning, I have done some basic python data learning on pandas, matplotlib and numpy. The learning block I am currently working through is about manipulating data in pandas. This has involved a lot of grouping data, for example in pivot tables. I&amp;rsquo;m told by people I know in data that these are the bread and butter of a data analyst, to summarize data in a tabular form, making it easier to draw insight from. This last section is is about using matplotlib to visualise the manipulated data, making it even easier to spot trends. There were also a few extra bits about creating a dataframe from a dictionary, but they weren&amp;rsquo;t that interesting so I won&amp;rsquo;t go over these.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Thu, 12 Dec 2024 17:06:18 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Email: &lt;a href=&#34;mailto:ben@cowling.org.uk&#34; &gt;ben@cowling.org.uk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/ben-cowling-b5b142316&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.linkedin.com/in/ben-cowling-b5b142316&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DataCamp Portfolio: &lt;a href=&#34;https://www.datacamp.com/portfolio/benaccowling&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.datacamp.com/portfolio/benaccowling&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 04 Dec 2024 11:21:34 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Ben. I graduated in medicine in the Summer and after some reflection, I realized that I was better suited to helping people by solving problems using maths and logic.  As such, I have started to learn SQL and python on DataCamp, and I am very much enjoying it! I have built this website to showcase my learning and projects, and hopefully it will solidify some of the knowledge in my head along the way. I&amp;rsquo;ve always enjoyed playing games like The Legend of Zelda, especially in those moments where you&amp;rsquo;ve solved the puzzle and the signature music plays. This has made me think that going into data and analytics would really play to my strengths.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Main</title>
+      <link>http://localhost:1313/menu/main/</link>
+      <pubDate>Tue, 12 Nov 2024 14:33:05 +0000</pubDate>
+      <guid>http://localhost:1313/menu/main/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Footer</title>
+      <link>http://localhost:1313/menu/footer/</link>
+      <pubDate>Tue, 12 Nov 2024 14:31:58 +0000</pubDate>
+      <guid>http://localhost:1313/menu/footer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/menu/about/</link>
+      <pubDate>Tue, 12 Nov 2024 13:44:40 +0000</pubDate>
+      <guid>http://localhost:1313/menu/about/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
