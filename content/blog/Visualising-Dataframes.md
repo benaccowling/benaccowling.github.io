@@ -49,6 +49,6 @@ I added a legend to the histograms so I knew which one is which with `plt.legend
 
 Unsurprisingly, organic avocados are more expensive on average. As a side note, I found that every time I ran the code to show the histograms, they changed colour! It's the little things :).
 
-###Summary
+### Summary
 
 This was a great way to finish the 'data manipulation in pandas' course, as subsetting and summarizing parts of the data was a large part of the course, whether in a pivot table or as a separate dataframe altogether. Next, I'm on to joining data in pandas. I've covered this previously in SQL, so it will be interesting to see how the 2 differ in their approach. 
