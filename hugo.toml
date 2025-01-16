@@ -6,23 +6,9 @@ defaultContentLanguage = "en"
 paginate = 6
 enableEmoji = true
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KG34X3C2K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6KG34X3C2K');
-</script>
-
 [services]
 [services.disqus]
 # Enable Disqus comments
-# shortname = "yourdiscussshortname"
-
-[markup.highlight]
-noClasses = false
 
 [params]
 author = "Ben Cowling"
@@ -132,6 +118,16 @@ id = "gid"
 # prefetchsrc = ["'self'"]
 # # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 # connectsrc = ["'self'", "https://www.google-analytics.com"]
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KG34X3C2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6KG34X3C2K');
+</script>
 
 [taxonomies]
 category = "categories"
