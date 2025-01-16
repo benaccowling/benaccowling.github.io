@@ -4,6 +4,16 @@ draft = false
 title = 'Visualising Dataframes'
 +++
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KG34X3C2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6KG34X3C2K');
+</script>
+
 Up to the point of making this website to start documenting my learning, I have done some basic python data learning on pandas, matplotlib and numpy. The learning block I am currently working through is about manipulating data in pandas. This has involved a lot of grouping data, for example in pivot tables. I'm told by people I know in data that these are the bread and butter of a data analyst, to summarize data in a tabular form, making it easier to draw insight from. This last section is about using matplotlib to visualise the manipulated data, making it even easier to spot trends. There were also a few extra bits about creating a dataframe from a dictionary, but they weren't that interesting so I won't go over these.
 
 The section used a dataframe of avocado sales in the USA, called 'avocados', including the size of the avocados and whether they were organic. I love that you get to learn about things you didn't even know you wanted to from analysing the different datasets, like 'what size of avocado sell the most?'. Here is the first few lines of 'avocados':
