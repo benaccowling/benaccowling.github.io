@@ -1,14 +1,4 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KG34X3C2K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6KG34X3C2K');
-</script>
-
-baseURL = "http://www.example.com"
+baseURL = "http://benaccowling.github.io"
 title = "Ben Cowling"
 theme = "hugo-coder"
 languageCode = "en"
@@ -81,7 +71,7 @@ customRemoteJS = []
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 [params.googleTagManager]
-id = "gid"
+id = "G-6KG34X3C2K"
 
 # If you want to use Yandex Metrika(https://metrika.yandex.ru) for analytics, add this section
 # [params.yandexMetrika]
