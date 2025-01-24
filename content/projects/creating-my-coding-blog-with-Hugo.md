@@ -47,7 +47,7 @@ This created the website directory ‘bencowling’, containing the folders need
 
 ![Website Files](/img/website_files.png)
 
-‘cd bencowling’ navigated me into my newly created directory where I used ‘git init’ to make a git repository containing the website files to allow me to host the site on GitHub later on. I then downloaded a theme From.in the GitHub page of the Hugo theme as a submodule. I chose the ‘coder’ theme because it suits my blog and it is mobile responsive.
+‘cd bencowling’ navigated me into my newly created directory where I used ‘git init’ to make a git repository containing the website files to allow me to host the site on GitHub later on. I then downloaded a theme from the GitHub page of the Hugo theme as a submodule. I chose the ‘coder’ theme because it suits my blog and it is mobile responsive.
 
 In order to tweak the theme to suit my website, I altered my Hugo.toml to include the settings offered by the coder theme. 
 
@@ -76,7 +76,7 @@ To add the local files for the website in ‘bencowling’, First I had to link 
 ```
 git credential manager GitHub login
 git remote add origin https://GitHub.com/benaccowling/benaccowling.GitHub.io.git
-git branch - M main
+git branch -M main
 git push -u origin main
 ```
 
