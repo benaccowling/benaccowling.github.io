@@ -45,13 +45,13 @@ git submodule add https://GitHub.com/luizdepra/Hugo-coder.git themes/Hugo-coder
 
 This created the website directory ‘bencowling’, containing the folders needed for the website to run:
 
-![Website Files](img/website_files.png)
+![Website Files](/img/website_files.PNG)
 
 ‘cd bencowling’ navigated me into my newly created directory where I used ‘git init’ to make a git repository containing the website files to allow me to host the site on GitHub later on. I then downloaded a theme From.in the GitHub page of the Hugo theme as a submodule. I chose the ‘coder’ theme because it suits my blog and it is mobile responsive.
 
 In order to tweak the theme to suit my website, I altered my Hugo.toml to include the settings offered by the coder theme. 
 
-![Hugo.toml](img/config_file.png)
+![Hugo.toml](/img/config_file.PNG)
 
 Altering these settings is quite self explanatory to change things like the title, front page description and profile image. For the profile image, I used the file explorer to add a photo to the static folder, where all images for the website are stored, referring to the image in the hugo.toml file as:
 
