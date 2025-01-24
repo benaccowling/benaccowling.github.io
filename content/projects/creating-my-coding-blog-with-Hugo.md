@@ -30,19 +30,17 @@ Because this guide was a bit old, its method of hosting on GitHub Pages was outd
 
 The Hugo documentation recommended that I use Microsoft powershell as the command prompt and that I download the packages Git, Go and Dart sass for building the website. I did this using the Windows package manager ‘winget’ before downloading Hugo in the command prompt with:
 
-winget install Hugo.Hugo.extended
+`winget install Hugo.Hugo.extended`
 
 ### Creating and Configuring the Website
 
 Still on the command prompt, I typed:
 
 ``` 
-{
 Hugo new site bencowling
 cd bencowling
 git init
 git submodule add https://GitHub.com/luizdepra/Hugo-coder.git themes/Hugo-coder
-}
 ```
 
 This created the website directory ‘bencowling’, containing the folders needed for the website to run:
@@ -76,12 +74,10 @@ To start this process, I created a GitHub account called benaccowling (I added m
 To add the local files for the website in ‘bencowling’, First I had to link my computer to my GitHub account on the command line using:
 
 ```
-{
 git credential manager GitHub login
 git remote add origin https://GitHub.com/benaccowling/benaccowling.GitHub.io.git
 git branch - M main
 git push -u origin main
-}
 ```
 
 This links the local git repository I made earlier to the online GitHub repository ‘origin’, renames this version of the files, or the branch, as main and pushes the contents of the local git repository to origin.
