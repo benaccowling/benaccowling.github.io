@@ -1,6 +1,6 @@
 +++
 date = '2024-12-12T17:06:18Z'
-draft = true
+draft = false
 title = 'Contact'
 +++
 
