@@ -2,39 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-16T17:24:33+00:00</lastmod>
+    <loc>http://benaccowling.github.io/</loc>
+    <lastmod>2025-01-17T10:15:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-12-16T17:24:33+00:00</lastmod>
+    <loc>http://benaccowling.github.io/projects/creating-my-coding-blog-with-hugo/</loc>
+    <lastmod>2025-01-17T10:15:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/creating-and-visualising-dataframes/</loc>
-    <lastmod>2024-12-16T17:24:33+00:00</lastmod>
+    <loc>http://benaccowling.github.io/projects/</loc>
+    <lastmod>2025-01-17T10:15:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2024-12-12T17:06:18+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2024-12-04T11:21:34+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/menu/main/</loc>
+    <loc>http://benaccowling.github.io/menu/</loc>
     <lastmod>2024-11-12T14:33:05+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/menu/</loc>
-    <lastmod>2024-11-12T14:33:05+00:00</lastmod>
+    <loc>http://benaccowling.github.io/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/menu/footer/</loc>
-    <lastmod>2024-11-12T14:31:58+00:00</lastmod>
+    <loc>http://benaccowling.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/menu/about/</loc>
-    <lastmod>2024-11-12T13:44:40+00:00</lastmod>
+    <loc>http://benaccowling.github.io/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://benaccowling.github.io/tags/</loc>
   </url>
 </urlset>

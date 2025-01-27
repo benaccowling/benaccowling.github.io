@@ -2,32 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Menus on Ben Cowling</title>
-    <link>http://localhost:1313/menu/</link>
+    <link>http://benaccowling.github.io/menu/</link>
     <description>Recent content in Menus on Ben Cowling</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Nov 2024 14:33:05 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/menu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Main</title>
-      <link>http://localhost:1313/menu/main/</link>
-      <pubDate>Tue, 12 Nov 2024 14:33:05 +0000</pubDate>
-      <guid>http://localhost:1313/menu/main/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Footer</title>
-      <link>http://localhost:1313/menu/footer/</link>
-      <pubDate>Tue, 12 Nov 2024 14:31:58 +0000</pubDate>
-      <guid>http://localhost:1313/menu/footer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/menu/about/</link>
-      <pubDate>Tue, 12 Nov 2024 13:44:40 +0000</pubDate>
-      <guid>http://localhost:1313/menu/about/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://benaccowling.github.io/menu/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
