@@ -49,11 +49,11 @@ This shows that ‘home_workout’ was by far the most searched term in covid, b
 
 For this task, I could have used the same method as for task 1, displaying the dataframe in descending order, but to change things up I created a logical statement to find the maximum value for ‘workout_2018_2023’, then queried the dataframe using the logical statement:
 
-![‘task_three_code’](img/task_three_code.png)
+![‘task_three_code’](/img/task_three_code.png)
 
 This code returned these records:
 
-![‘task_three_output’](img/task_three_output.png)
+![‘task_three_output’](/img/task_three_output.png)
 
 I realize now that this would not have worked if the USA did not search for workout the most, so I should have added a term to include only the US, Australia and Japan, similar to what I do in the next task.
 
@@ -63,11 +63,11 @@ Task 4
 
 I used a mixture of the methods I used in previous tasks for this one. I used a query because I needed to include only Malaysia and the Philippines. I then sorted the 2 rows by the ‘home_workout_2018_2023’ column to find which country was more interested.
 
-![‘task_four_code’](img/task_four_code.png)
+![‘task_four_code’](/img/task_four_code.png)
 
 This returned the records in descending order:
 
-![‘task_four_output’](img/task_four_output.png)
+![‘task_four_output’](/img/task_four_output.png)
 
 The Philippines turned out to be the more interested country, so this is where I would start my virtual workout expansion!
 
