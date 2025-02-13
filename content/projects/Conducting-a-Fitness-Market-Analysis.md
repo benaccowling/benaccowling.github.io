@@ -61,7 +61,7 @@ Task 4
 
 ‘Three_keywords_geo’ has the cumulative search index for three_keywords from task 2 over the five year period with the associated country. The task was to find which out of the Philippines or Malaysia has the highest interest in home workouts, in theory to expand my fitness enterprise to the more interested country.
 
-I used a mixture of the methods I used in previous tasks for this one. I used a query because I needed to include only Malaysia and the Philippines. I then sorted the 2 rows by the ‘home_workout_2018_2023’ column to find which country was more interested.
+I used a mixture of methods from previous tasks for this one. I used a query because I needed to include only Malaysia and the Philippines. I then sorted the 2 rows by the ‘home_workout_2018_2023’ column to find which country was more interested.
 
 ![task_four_code](/img/task_four_code.png)
 
