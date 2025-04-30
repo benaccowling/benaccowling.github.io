@@ -28,7 +28,7 @@ For this game, we had to have a strategy for whether the computer would say add 
 
 ![21_game_3](/img/21_game_3.png)
 
-The best strategy for this game is to add to the current number to make it a multiple of four on your turn because this guarantees that you will say the number 20, making you opponent say 21 to lose. However, if your opponent is saying the multiples of four, there is nothing to be done and you have effectively lost. I have reflected this in the 'strategy' function. This project was great practice in defining and using functions, as well as using while loops with the `break` and `continue` statements.
+The best strategy for this game is to add to the current number to make it a multiple of four on your turn because this guarantees that you will say the number 20, making you opponent say 21 to lose. However, if your opponent is saying the multiples of four, there is nothing to be done and you have effectively lost. I have reflected this in the `strategy` function that I made. This project was great practice in defining and using functions, as well as using `while` loops with the `break` and `continue` statements.
 
 ---
 
