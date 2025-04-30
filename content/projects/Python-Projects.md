@@ -36,7 +36,7 @@ The best strategy for this game is to add to the current number to make it a mul
 
 The task in this project was for the program to take in 2 PDF files and judge whether the content of the files are identical. To make this program applicable to larger files, we wrote the code so that it read the pdf file in chunks at a time and converted the content of the code into a hexadecimal hash value using hashlib. This hash value allows easy comparison between the 2 files.
 
-![pdf_compare_1](/img/pdfcompare1.png) 
+![pdf_compare_1](/img/pdf_compare_1.png) 
 
 This was my fist experience using hashlib. I find it interesting that the encryption algorithms like SHA-1 have been cryptographically broken, but they are still useful for programs like the one my friend and I made. I also learned about reading binary and the ability to do this in chunks so that the program can handle large datasets.
 
@@ -46,7 +46,7 @@ This was my fist experience using hashlib. I find it interesting that the encryp
 
 Mastermind is a game where one player chooses a number and the opponent has to guess the number. When the guesser guesses a number, they get a red pin for every digit from the guess that they got correct, but in the wrong place in the number to guess, and a black pin for every number they got right in the right place in the number to guess. It's a bit like wordle but with numbers. Here is a round of the game being played:
 
-![mastermind_gameplay](/img/mastermind_gameplay)
+![mastermind_gameplay](/img/mastermind_gameplay.png)
 
 Here is the code for the game:
 
