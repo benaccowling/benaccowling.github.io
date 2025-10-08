@@ -1,5 +1,4 @@
 +++
-date = '2025-01-30T10:23:56Z'
 draft = false
 title = 'Conducting a Fitness Market Analysis'
 +++

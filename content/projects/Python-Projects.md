@@ -1,5 +1,4 @@
 +++
-date = '2025-04-25T14:00:47+01:00'
 draft = false
 title = 'Collaborative Python Projects to Explore the Foundation of Machine Learning'
 +++

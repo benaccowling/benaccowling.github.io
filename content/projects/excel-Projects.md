@@ -1,5 +1,4 @@
 +++
-date = '2025-07-31T14:40:44+01:00'
 draft = false
 title = 'Excel Project: Getting to the Root of Why Customers Are Churning'
 +++
