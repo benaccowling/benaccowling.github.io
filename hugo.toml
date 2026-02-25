@@ -157,3 +157,8 @@ url = "projects/"
 name = "Contact"
 weight = 3
 url = "contact/"
+
+[markup]
+  [markup.goldmark]
+    [markup.renderer]
+      unsafe = true
