@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Excel Project: Getting to the Root of Why Customers Are Churning · Ben Cowling
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Ben Cowling">
+<meta name="description" content="Excel is very accesible for anyone who wants to analyse data, but this does not detract from the power it has to perform complex insights. For this reason, I thought it imperative to build on the excel skills I learnt at school so that I could use all of the tools excel has to offer.
+I started a DataCamp excel course which culminated with a project looking to analyse the churn rate of customers at a fake broadband company, databel.">
+<meta name="keywords" content="blog,data,learning">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Excel Project: Getting to the Root of Why Customers Are Churning">
+  <meta name="twitter:description" content="Excel is very accesible for anyone who wants to analyse data, but this does not detract from the power it has to perform complex insights. For this reason, I thought it imperative to build on the excel skills I learnt at school so that I could use all of the tools excel has to offer.
+I started a DataCamp excel course which culminated with a project looking to analyse the churn rate of customers at a fake broadband company, databel.">
+
+<meta property="og:url" content="http://localhost:1313/projects/excel-projects/">
+  <meta property="og:site_name" content="Ben Cowling">
+  <meta property="og:title" content="Excel Project: Getting to the Root of Why Customers Are Churning">
+  <meta property="og:description" content="Excel is very accesible for anyone who wants to analyse data, but this does not detract from the power it has to perform complex insights. For this reason, I thought it imperative to build on the excel skills I learnt at school so that I could use all of the tools excel has to offer.
+I started a DataCamp excel course which culminated with a project looking to analyse the churn rate of customers at a fake broadband company, databel.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/excel-projects/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Ben Cowling
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/excel-projects/">
+          Excel Project: Getting to the Root of Why Customers Are Churning
+        </a>
+      </h1>
+    </header>
+
+    <p>Excel is very accesible for anyone who wants to analyse data, but this does not detract from the power it has to perform complex insights. For this reason, I thought it imperative to build on the excel skills I learnt at school so that I could use all of the tools excel has to offer.</p>
+<p>I started a DataCamp excel course which culminated with a project looking to analyse the churn rate of customers at a fake broadband company, databel.</p>
+<p><img src="/img/databell_customer_spreadsheet.png" alt="databel_overview"></p>
+<p>The great thing about this course was that as well as going over what I had learned about the functionality of excel, it also went through the workflow of analysing a dataset, splitting this into 5 stages:</p>
+<ol>
+<li>Check the data</li>
+<li>Explore the data</li>
+<li>Gather insights</li>
+<li>Create a dashboard</li>
+<li>Present to stakeholders</li>
+</ol>
+<p>This workflow outlined how I worked through the project, although I didn&rsquo;t get a chance to present my analysis, so hopefully writing this article will somewhat provide a practice of this.</p>
+<p>Preparing the data was very simple in this case as it wasn&rsquo;t particularly messy to begin with, although in future projects I imagine it will be useful to work with messier data. I simply used the &lsquo;remove duplicates&rsquo; button, of which there were none.</p>
+<p>I learned that a good way to explore a dataset is to find the summary statistics. In the case of this dataset looking at churned customers, the churn rate is an important KPI for Databel. To find the churn rate, I created a pivot table with the count of total customers and churned customers in the value section. I then used a calculated field to find out the churn rate from these two values.</p>
+<p><img src="/img/churn_rate_pivot.png" alt="churn_rate_pivot"></p>
+<p>This churn rate seemed high, so it was worth looking into the reasons why customers were leaving. I learned that it was important to have a plan to thoroughly analyze all of the data, looking through all of the columns systematically and the interplay between these columns. I thought the best place to look first was the churn reason column, where I found, by grouping these reasons in a pivot table, that better offers from competitors was the most common reason, suggesting that Databel needed to lower their prices.</p>
+<p><img src="/img/churn_reason.png" alt="churn_reason"></p>
+<p>This project also taught me that if you have a significant and useful insight, it is worth exploring this further to see if any other connections can be made. The database has fields separating customers into &lsquo;senior&rsquo; and &lsquo;under 30&rsquo;. I grouped these fields together by creating a new field called &lsquo;demographics&rsquo; using a nested <code>IF()</code> statement:</p>
+<p><code>=IF([@[Under 30]]=&quot;Yes&quot;,&quot;Under 30&quot;,IF([@Senior]=&quot;Yes&quot;,&quot;Senior&quot;,&quot;Other&quot;))</code></p>
+<p>This allowed me to easily create a pivot table and column chart looking at the number of customers and churn rate of customers based on their demographic, finding that seniors had the highest churn rate.</p>
+<p><img src="/img/demographic_churn_rate.png" alt="demographic_churn_rate"></p>
+<p>Because this was a useful insight, I explored further into how closely age affected churn rate by visualising the churn rate against more exact age groups:</p>
+<p><img src="/img/age_churn_rate.png" alt="age_churn_rate"></p>
+<p>This showed a direct rise in churn rate and decrease in customer count as age increases. The customer reason for this is also to do with better competetor offers, offering no extra insight into why this is happening, so in this case I would recommend Databel to explore this further through customer research to find why their customers churn as they get older.</p>
+<p>The final step was to create a dashboard to present all of my findings. I enjoyed getting a bit creative to make the dashboard look appealing and emphasise the most important findings. Here is my completed dashboard:</p>
+<p><img src="/img/databel_dashboard.png" alt="databel_dashboard"></p>
+<p>I really enjoyed coming back to excel because it&rsquo;s so easy to use! It was also very useful to learn new excel skills, such as new functions like <code>IFS()</code> to select data in more complex ways; how to make dashboards look better with the design tools; and also the techniques for how to go about analysing data. I&rsquo;m looking forward to doing more projects in excel, perhaps with more data cleaning, which is such an important skill for an analyst</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2026
+     Ben Cowling 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KG34X3C2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6KG34X3C2K');
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

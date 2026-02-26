@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Conducting a Fitness Market Analysis · Ben Cowling
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Ben Cowling">
+<meta name="description" content="
+
+
+For this project in python, the aim for me was to practice answering business questions by figuring out which methods to use for each question. I think that although multiple methods could have been used for each question, my rationale was to think of what I was logically trying to do for each question and find the most appropriate method.">
+<meta name="keywords" content="blog,data,learning">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Conducting a Fitness Market Analysis">
+  <meta name="twitter:description" content="For this project in python, the aim for me was to practice answering business questions by figuring out which methods to use for each question. I think that although multiple methods could have been used for each question, my rationale was to think of what I was logically trying to do for each question and find the most appropriate method.">
+
+<meta property="og:url" content="http://localhost:1313/projects/conducting-a-fitness-market-analysis/">
+  <meta property="og:site_name" content="Ben Cowling">
+  <meta property="og:title" content="Conducting a Fitness Market Analysis">
+  <meta property="og:description" content="For this project in python, the aim for me was to practice answering business questions by figuring out which methods to use for each question. I think that although multiple methods could have been used for each question, my rationale was to think of what I was logically trying to do for each question and find the most appropriate method.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/conducting-a-fitness-market-analysis/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Ben Cowling
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/conducting-a-fitness-market-analysis/">
+          Conducting a Fitness Market Analysis
+        </a>
+      </h1>
+    </header>
+
+    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>For this project in python, the aim for me was to practice answering business questions by figuring out which methods to use for each question. I think that although multiple methods could have been used for each question, my rationale was to think of what I was logically trying to do for each question and find the most appropriate method.</p>
+<p>This project looks at 5 different datasets, looking at the popularity of some fitness related search terms on google, along with the associated country and how the popularity has changed over time. As a fitness studio, the idea was to query the data to identify potential areas for growth of digital products and services.</p>
+<h3 id="task-1">
+  Task 1
+  <a class="heading-link" href="#task-1">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The ‘workout.csv’ file contains a table with the ‘workout_worldwide’ field and the associated month. ‘workout_worldwide’ is an index from 1 to 100 representing the popularity of the keyword ‘workout’ on google.</p>
+<p><img src="/img/workout_head.png" alt="workout_head"></p>
+<p>The first task was to find when the global search for ‘workout’ was at its peak. I thought initially of using <code>df.query()</code> and writing a logical statement to get the max value of ‘workout_worldwide’ but then I thought an easier way to do this would be to sort the dataframe in descending order to get the top result, using:</p>
+<p><code>df.sort_values(‘workout_worldwide’, ascending=False)</code></p>
+<p>The month where the word ‘workout’ was searched most was April 2020, just as most places started to go into lockdown because of covid.</p>
+<h3 id="task-2">
+  Task 2
+  <a class="heading-link" href="#task-2">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The ‘three_keywords’ table is the same as the ‘workout’ table but with 3 keywords instead: ‘home_workout’, ‘gym_workout’ and ‘home_gym’. The task was to find which keyword was most popular during covid (I assumed this was 2020-2022) and what the most popular is now.</p>
+<p>Because I need to see the values of the columns over a time period, I thought that it would be best to find the most searches by visualising the data with a line graph with matplotlib:</p>
+<p><code>plt.plot([“home_workout”, “gym_workout”, “home_gym”], kind = “bar”)</code></p>
+<p>The graph is shown below:</p>
+<p><img src="/img/keyword_graph.png" alt="keyword_graph"></p>
+<p>This shows that ‘home_workout’ was by far the most searched term in covid, but now ‘gym workout’ is the highest but at a much lower search volume.</p>
+<h3 id="task-3">
+  Task 3
+  <a class="heading-link" href="#task-3">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>‘Workout_geo.csv’ has the ‘workout_2018_2023’ field which is a cumulative index of the popularity of the keyword ‘workout’ during the 5 year period, from 1 to 100 along with the associated country. The task was to find which country has interest in workouts out of the US, Australia or Japan.</p>
+<p>For this task, I could have used the same method as for task 1, displaying the dataframe in descending order, but to change things up I created a logical statement to find the maximum value for ‘workout_2018_2023’, then queried the dataframe using the logical statement:</p>
+<p><img src="/img/task_three_code.png" alt="task_three_code"></p>
+<p>This code returned these records:</p>
+<p><img src="/img/task_three_output.png" alt="task_three_output"></p>
+<p>I realize now that this would not have worked if the USA did not search for workout the most, so I should have added a term to include only the US, Australia and Japan, similar to what I do in the next task.</p>
+<p>Task 4</p>
+<p>‘Three_keywords_geo’ has the cumulative search index for three_keywords from task 2 over the five year period with the associated country. The task was to find which out of the Philippines or Malaysia has the highest interest in home workouts, in theory to expand my fitness enterprise to the more interested country.</p>
+<p>I used a mixture of methods from previous tasks for this one. I used a query because I needed to include only Malaysia and the Philippines. I then sorted the 2 rows by the ‘home_workout_2018_2023’ column to find which country was more interested.</p>
+<p><img src="/img/task_four_code.png" alt="task_four_code"></p>
+<p>This returned the records in descending order:</p>
+<p><img src="/img/task_four_output.png" alt="task_four_output"></p>
+<p>The Philippines turned out to be the more interested country, so this is where I would start my virtual workout expansion!</p>
+<h3 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>This project allow me to exercise my problem solving skills, requiring me to use various methods to answer the business questions. For example, using data visualization with matplotlib and using the query() method.</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2026
+     Ben Cowling 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KG34X3C2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6KG34X3C2K');
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

@@ -6,35 +6,21 @@
     <description>Recent content on Ben Cowling</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Apr 2025 14:00:47 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 13:21:05 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Collaborative Python Projects to Explore the Foundation of Machine Learning</title>
-      <link>http://localhost:1313/projects/python-projects/</link>
-      <pubDate>Fri, 25 Apr 2025 14:00:47 +0100</pubDate>
-      <guid>http://localhost:1313/projects/python-projects/</guid>
-      <description>&lt;p&gt;Machine learning is a powerful tool for extracting the best insights from a dataset and accurately predicting future outcomes. New applications of machine learning models are created daily that have a real impact across various industries.&lt;/p&gt;&#xA;&lt;p&gt;Because of this, my friend and I were eager to learn more about machine learning, but we didn’t know where to start. My friend came across an article that said that Python is the foundation of machine learning, so it is crucial to have a grasp on the concepts of Python first - &lt;a href=&#34;https://pub.towardsai.net/the-ultimate-beginner-to-advance-guide-to-machine-learning-b4dd361aefbb&#34;&gt;The Ultimate Beginner to Advance guide to Machine learning&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Conducting a Fitness Market Analysis</title>
-      <link>http://localhost:1313/projects/conducting-a-fitness-market-analysis/</link>
-      <pubDate>Thu, 30 Jan 2025 10:23:56 +0000</pubDate>
-      <guid>http://localhost:1313/projects/conducting-a-fitness-market-analysis/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;For this project in python, the aim for me was to practice answering business questions by figuring out which methods to use for each question. I think that although multiple methods could have been used for each question, my rationale was to think of what I was logically trying to do for each question and find the most appropriate method.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Creating My Coding Blog With Hugo</title>
-      <link>http://localhost:1313/projects/creating-my-coding-blog-with-hugo/</link>
-      <pubDate>Fri, 17 Jan 2025 10:15:15 +0000</pubDate>
-      <guid>http://localhost:1313/projects/creating-my-coding-blog-with-hugo/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;When I started thinking about creating a website to showcase my coding journey, I had no experience with HTML, CSS, or JavaScript, so I thought it would be too big a challenge to start from scratch. On the other hand, I didn’t want to have it all done for me with a website generator like Wix or GoDaddy because I wanted to gain some learning in web design from the experience.&lt;/p&gt;</description>
+      <title>Using Machine Learning to Find the Cardiovascular Risk of a Patient</title>
+      <link>http://localhost:1313/projects/machine_learning_one/</link>
+      <pubDate>Wed, 25 Feb 2026 13:21:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/machine_learning_one/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;&#xD;&#xA;  Introduction&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;This project is the first of those I have completed in my data science master&amp;rsquo;s degree. It was an excellent way of bringing together the full workflow of building a machine learning model that I have learned throughout the module. My lecturers emphasized the importance of justifying decisions made when building the model so that it was the best fit for its use case. My background in medicine allowed me to do this, leading to a mark of 74 on this project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Thu, 12 Dec 2024 17:06:18 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:ben@cowling.org.uk&#34;&gt;ben@cowling.org.uk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/ben-cowling-b5b142316&#34;&gt;www.linkedin.com/in/ben-cowling-b5b142316&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DataCamp Portfolio: &lt;a href=&#34;https://www.datacamp.com/portfolio/benaccowling&#34;&gt;https://www.datacamp.com/portfolio/benaccowling&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:ben@cowling.org.uk&#34; &gt;ben@cowling.org.uk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/ben-cowling-b5b142316&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.linkedin.com/in/ben-cowling-b5b142316&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DataCamp Portfolio: &lt;a href=&#34;https://www.datacamp.com/portfolio/benaccowling&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.datacamp.com/portfolio/benaccowling&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
@@ -42,6 +28,34 @@
       <pubDate>Wed, 04 Dec 2024 11:21:34 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Hi, I&amp;rsquo;m Ben. I graduated in medicine in the Summer and after some reflection, I realized that I was better suited to helping people by solving problems using maths and logic.  As such, I have started to learn SQL and python on DataCamp, and I am very much enjoying it! I have built this website to showcase my learning and projects, and hopefully it will solidify some of the knowledge in my head along the way. I&amp;rsquo;ve always enjoyed playing games with challenging puzzles like The Legend of Zelda, especially in those moments where you&amp;rsquo;ve solved the puzzle and the signature music plays. This has made me think that going into data and analytics would really play to my strengths.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collaborative Python Projects to Explore the Foundation of Machine Learning</title>
+      <link>http://localhost:1313/projects/python-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/python-projects/</guid>
+      <description>&lt;p&gt;Machine learning is a powerful tool for extracting the best insights from a dataset and accurately predicting future outcomes. New applications of machine learning models are created daily that have a real impact across various industries.&lt;/p&gt;&#xA;&lt;p&gt;Because of this, my friend and I were eager to learn more about machine learning, but we didn’t know where to start. My friend came across an article that said that Python is the foundation of machine learning, so it is crucial to have a grasp on the concepts of Python first - &lt;a href=&#34;https://pub.towardsai.net/the-ultimate-beginner-to-advance-guide-to-machine-learning-b4dd361aefbb&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Ultimate Beginner to Advance guide to Machine learning&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conducting a Fitness Market Analysis</title>
+      <link>http://localhost:1313/projects/conducting-a-fitness-market-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/conducting-a-fitness-market-analysis/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;For this project in python, the aim for me was to practice answering business questions by figuring out which methods to use for each question. I think that although multiple methods could have been used for each question, my rationale was to think of what I was logically trying to do for each question and find the most appropriate method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creating My Coding Blog With Hugo</title>
+      <link>http://localhost:1313/projects/creating-my-coding-blog-with-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/creating-my-coding-blog-with-hugo/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;&#xD;&#xA;  Introduction&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;When I started thinking about creating a website to showcase my coding journey, I had no experience with HTML, CSS, or JavaScript, so I thought it would be too big a challenge to start from scratch. On the other hand, I didn’t want to have it all done for me with a website generator like Wix or GoDaddy because I wanted to gain some learning in web design from the experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Excel Project: Getting to the Root of Why Customers Are Churning</title>
+      <link>http://localhost:1313/projects/excel-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/excel-projects/</guid>
+      <description>&lt;p&gt;Excel is very accesible for anyone who wants to analyse data, but this does not detract from the power it has to perform complex insights. For this reason, I thought it imperative to build on the excel skills I learnt at school so that I could use all of the tools excel has to offer.&lt;/p&gt;&#xA;&lt;p&gt;I started a DataCamp excel course which culminated with a project looking to analyse the churn rate of customers at a fake broadband company, databel.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
