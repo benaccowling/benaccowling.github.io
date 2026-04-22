@@ -14,13 +14,22 @@ title = 'About'
   gtag('config', 'G-6KG34X3C2K');
 </script>
 
-Hi, I'm Ben. I graduated in medicine in the Summer and after some reflection, I realized that I was better suited to helping people by solving problems using maths and logic.  As such, I have started to learn SQL and python on DataCamp, and I am very much enjoying it! I have built this website to showcase my learning and projects, and hopefully it will solidify some of the knowledge in my head along the way. I've always enjoyed playing games with challenging puzzles like The Legend of Zelda, especially in those moments where you've solved the puzzle and the signature music plays. This has made me think that going into data and analytics would really play to my strengths.
+Hi, I'm Ben. I'm a data science student at the University of York. I live in Leeds with my girlfriend and I grew up in Addingham, so it has been great to come back to Yorkshire after studying my undergraduate degree in medicine at Nottingham. after graduating, I was undecided on what to do next, so I tried out learning to code. I'm a big fan of anything with a logical problem to solve, be it cryptic crosswords or the Legend of Zelda, so coding really suited me in this way. I realized I could combine coding with the communication and research skills I had gained from my medicine degree in a data career. I am really enjoying learning more about data science in my master's degree, especially telling unique stories using data, as well as finding ways to innovate upon systems, for example in implementing machine learning models.
 
-I'm a keen football fan, especially when it comes to England football. Last Summer I went to Germany with some friends to see England in the Euros, unfortunately to the 2 of the boring group games! But the atmosphere was like nothing I'd ever experienced. I also love anything to do with films and cinema, my favourite film being Christopher Nolan's Interstellar.
+In my spare time, I'm a keen England football fan - I try to go to as many games as I can. I play football casually with my friends every week, mostly bringing a "hoof it and hope" approach to defending. My girlfriend and I like to go on walks around Yorkshire, especially when there's a pub at the end! I'm also an avid gamer and I love going to the cinema, particularly when anything by Chris Nolan is out.
+
+<div style="display: flex; gap: 10px;">
+  <img src="C:\Users\benac\bencowling\benaccowling.github.io\static\img\Wembley" alt="Alt 1" style="width: 33%;">
+  <img src="C:\Users\benac\bencowling\benaccowling.github.io\static\img\football" alt="Alt 2" style="width: 33%;">
+  <img src="C:\Users\benac\bencowling\benaccowling.github.io\static\img\hiking" alt="Alt 3" style="width: 33%;">
+</div>
 
 # Education
 
-**Medicine** 2024, University of Nottingham
+**MSc, Data Science** 2025 - 2026, University of York
 
-**Biomedical Sciences 2:1** 2022, University of Nottingham
+**BMBS, Medicine** 2019 - 2024, University of Nottingham
 
+**BmedSci, Biomedical Sciences 2:1** 2019 - 2022, University of Nottingham
+
+**A levels: Maths A, Chemistry A, Biology A** 2016 - 2018, Ermysted's Grammar School
