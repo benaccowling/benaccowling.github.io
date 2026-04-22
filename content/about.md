@@ -14,15 +14,16 @@ title = 'About'
   gtag('config', 'G-6KG34X3C2K');
 </script>
 
-Hi, I'm Ben. I'm a data science student at the University of York. I live in Leeds with my girlfriend and I grew up in Addingham, so it has been great to come back to Yorkshire after studying my undergraduate degree in medicine at Nottingham. after graduating, I was undecided on what to do next, so I tried out learning to code. I'm a big fan of anything with a logical problem to solve, be it cryptic crosswords or the Legend of Zelda, so coding really suited me in this way. I realized I could combine coding with the communication and research skills I had gained from my medicine degree in a data career. I am really enjoying learning more about data science in my master's degree, especially telling unique stories using data, as well as finding ways to innovate upon systems, for example in implementing machine learning models.
+Hi, I'm Ben - a data science student at the University of York. I live in Leeds with my girlfriend and I grew up in Addingham, so it has been great to come back to Yorkshire after studying my undergraduate degree in medicine at Nottingham. after graduating, I was undecided on what to do next, so I tried out learning to code. I'm a big fan of anything with a logical problem to solve, be it cryptic crosswords or the Legend of Zelda, so coding really suited me in this way. I realized I could combine coding with the communication and research skills I had gained from my medicine degree in a data career. I am really enjoying learning more about data science in my master's degree, especially telling unique stories using data, as well as finding ways to innovate upon systems, for example in implementing machine learning models.
 
 In my spare time, I'm a keen England football fan - I try to go to as many games as I can. I play football casually with my friends every week, mostly bringing a "hoof it and hope" approach to defending. My girlfriend and I like to go on walks around Yorkshire, especially when there's a pub at the end! I'm also an avid gamer and I love going to the cinema, particularly when anything by Chris Nolan is out.
 
-<div style="display: flex; gap: 10px;">
-  <img src="C:\Users\benac\bencowling\benaccowling.github.io\static\img\Wembley" alt="Alt 1" style="width: 33%;">
-  <img src="C:\Users\benac\bencowling\benaccowling.github.io\static\img\football" alt="Alt 2" style="width: 33%;">
-  <img src="C:\Users\benac\bencowling\benaccowling.github.io\static\img\hiking" alt="Alt 3" style="width: 33%;">
+<div style="display: flex; justify-content: space-between;">
+  <img src="/img/Wembley.jpg" style="max-width: 33%; height: auto;" />
+  <img src="/img/football.jpeg" style="max-width: 33%; height: auto;" /> 
+  <img src="/img/hiking.jpeg" style="max-width: 33%; height: auto;" />
 </div>
+
 
 # Education
 
